@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Todo Hackathon App",
+    "slug": "todo-hackathon-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todohackathon.app"
+    },
+    "android": {
+      "package": "com.todohackathon.app",
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "todohackathonapp",
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      }
+    }
+  }
+} 
